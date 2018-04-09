@@ -9,7 +9,8 @@ class ArticleController extends Controller
 {
    public function index()
    {
-       $articles = Aritcle::all();
+       $articles = Article::all();
+       logger($articles);
        return view('article.index', ['articles' => $articles]);
    } 
 }
