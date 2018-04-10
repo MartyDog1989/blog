@@ -8,7 +8,7 @@
 </head>
 <body class="p-3">
     <h1>ブログ一覧</h1>
-
+    <p><a href="create" class="btn btn-primary">新規追加</a></p>
     @foreach ($articles as $article)
         <div class="card mb-2">
             <div class="card-body">
