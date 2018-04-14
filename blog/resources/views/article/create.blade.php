@@ -9,7 +9,7 @@
     <body class="p-3">
         <h1>ブログ新規追加</h1>
 
-        <form method="post" action="/create">
+        <form method="post" action="create">
             {{ csrf_field() }}
             <div class="form-group">
                 <label for="titleInput">タイトル</labe>
